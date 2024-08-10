@@ -1,0 +1,23 @@
+.imgBackground{
+    background-image: url("../img/diane-picchiottino-PRFRLk75rKE-unsplash.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+/* /* background-attachment: fixed; Optional: makes the background image fixed during scrolling */
+}
+.imgBackgroundAdmin{
+    background-image: url("../img/adminWallpaper.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+/* /* background-attachment: fixed; Optional: makes the background image fixed during scrolling */
+}
+.formBlur{
+    background: rgba(255, 255, 255, 0.8); /* White background with 80% opacity */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
+    border-radius: 10px; /* Optional: for rounded corners */
+    padding: 20px; /* Optional: for some padding inside the form */
+    position: relative; /* Ensure proper stacking context */
+    z-index: 1; /* Ensure the blur effect is visible */
+}
